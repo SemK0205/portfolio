@@ -300,6 +300,7 @@ nav.scrolled {
     border: 1px solid rgba(13, 148, 136, 0.2);
     transition: all 0.3s ease;
     position: relative;
+    max-width: 489px;
 }
 
 .project-card:hover {
