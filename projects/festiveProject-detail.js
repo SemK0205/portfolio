@@ -166,12 +166,6 @@ function getTechInfo(techName) {
     return techData[techName];
 }
 
-// 기술 정보 모달 표시
-function showTechModal(techName, techInfo) {
-    // 간단한 알림으로 구현 (실제로는 모달 창을 만들 수 있음)
-    alert(`${techName}: ${techInfo}`);
-}
-
 // 페이지 로드 완료 시 애니메이션 시작
 document.addEventListener('DOMContentLoaded', function() {
     // 히어로 섹션 애니메이션
